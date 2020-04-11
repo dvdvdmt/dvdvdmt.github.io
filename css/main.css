@@ -138,7 +138,7 @@ input[type=range].song-range::-webkit-slider-runnable-track {
     cursor: pointer;
     box-shadow: none;
     background: #979797;
-    border-radius: none;
+    border-radius: 0;
     border: none
 }
 
@@ -166,7 +166,7 @@ input[type=range].song-range::-moz-range-track {
     cursor: pointer;
     box-shadow: none;
     background: #979797;
-    border-radius: none;
+    border-radius: 0;
     border: none
 }
 
@@ -186,7 +186,7 @@ input[type=range].song-range::-ms-track {
     cursor: pointer;
     box-shadow: none;
     background: #979797;
-    border-radius: none;
+    border-radius: 0;
     border: none
 }
 
@@ -343,7 +343,6 @@ footer {
     width: 108px;
     height: 27px;
     position: relative;
-    background-image: url("./assets/logo.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -374,7 +373,6 @@ footer {
     padding: 0 20px 0 25px;
     display: flex;
     justify-content: space-between;
-    background: url("assets/sh.png") center center/cover no-repeat;
 }
 .main__greeting {
     margin-top: 6px;
@@ -463,12 +461,10 @@ footer {
     padding-right: 32px;
 }
 .modal__value_temp {
-    background: url("assets/panel__icon_temp_on.svg") calc(100% + 10px) 0%/contain no-repeat;
 }
 .modal__value_light {
     height: 45px;
     padding-right: 45px;
-    background: url("assets/panel__icon_light_off.svg") right center/contain no-repeat;
 }
 .modal__status {
     margin-bottom: 20px;
@@ -634,7 +630,6 @@ html {
     padding-right: 31px;
 }
 .weather__item_cloud-drizzle {
-    background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat;
 }
 .stats {
     opacity: 0;
@@ -644,19 +639,14 @@ html {
     height: 24px;
 }
 .panel__icon_temp_off {
-    background: url("assets/panel__icon_temp_off.svg") center center/contain no-repeat;
 }
 .panel__icon_temp_on {
-    background: url("assets/panel__icon_temp_on.svg") center center/contain no-repeat;
 }
 .panel__icon_light_off {
-    background: url("assets/panel__icon_light_off.svg") center center/contain no-repeat;
 }
 .panel__icon_light_on {
-    background: url("assets/panel__icon_light_on.svg") center center/contain no-repeat;
 }
 .panel__icon_clock {
-    background: url("assets/panel__icon_clock.svg") center center/contain no-repeat;
 }
 
 .card-heading {
@@ -704,8 +694,6 @@ html {
 .card-description {
     display: block;
     font-size: 20px;
-    -webkit-columns: #000;
-    columns: #000;
     padding-top: 23px;
     margin-bottom: 9px
 }
